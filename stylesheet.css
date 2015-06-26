@@ -1,20 +1,58 @@
 #mainlogo {
-	/*margin: 183px auto;*/
+	margin: 124px 0px 22px 0px;
 	text-align: center;
-}
-
-div {
-	border: 2px dotted grey;
 }
 
 #navbar {
 	text-align: center;
+	border: 2px dotted grey;
+}
+
+input[type="text"] {
+	width: 480px;
+	height: 26px;
+	border: 1px solid #c0c0c0 /*#4d90fe*/;
 }
 
 .search {
+	margin: 8px 0px 0px 0px;
 	text-align: center;
 }
 
+.searchbtns {
+	margin: 16px 6px 0px 6px;
+	background-color: #f4f4f4;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	height: 30px;
+	color: #444444;
+	font-size: 11px;
+	font-weight: bold;
+}
+
 #footer {
-	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	clear: both;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	font-family: Arial;
+	font-size: 14px;
+	color: #666666;
+}
+
+#leftside {
+	float: left;
+}
+
+#rightside {
+	float: right;
+}
+
+li {
+	float: left;
+	text-decoration: none;
+	padding: 0px 14px 10px 14px;
+	list-style-type: none;
 }
