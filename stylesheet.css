@@ -19,11 +19,39 @@ a:hover {
 	clear: both;
 	font-size: 13px;
 	color: #666666;
+	padding-top: 10px;
+}
+
+#navbar li {
+	float: left;
+	text-decoration: none;
+	padding: 0px 15px 10px 0px;
+	list-style-type: none;
+}
+
+#options {
+	width: 30px;
+	height: 30px;
+	background: url("images/i1_0430b5ba.png") no-repeat -139px -45px;
+	opacity: .55;
+	margin: 0px 0px 0px 10px;
+}
+
+#notif {
+	width: 20px;
+	height: 20px;
+	background: url("images/i1_0430b5ba.png") no-repeat -194px -21px;
+	margin: 0px 4px 0px 0px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.55);
+	box-sizing: border-box;
+	transform: translateY(-10%);
 }
 
 #pic {
 	width: 34px;
 	border-radius: 50%;
+	transform: translateY(-25%);
 }
 
 #mainlogo {
@@ -33,9 +61,24 @@ a:hover {
 
 input[type="text"] {
 	width: 50%;
-	height: 26px;
+	height: 20px;
 	max-width: 560px;
-	border: 1px solid #c0c0c0 /*#4d90fe*/;
+	border-top-color: #c0c0c0;
+	border-right-color: #d9d9d9;
+	border-bottom-color: #d9d9d9;
+	border-left-color: #d9d9d9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 4px 8px 4px 8px;
+	outline: 0;
+}
+
+input:hover {
+		border-color: #a4a4a4;
+}
+
+input:focus {
+		border-color: #4d90fe;
 }
 
 .search {
@@ -52,6 +95,7 @@ input[type="text"] {
 	color: #444444;
 	font-size: 11px;
 	font-weight: bold;
+	outline: 0;
 }
 
 #motd {
@@ -79,7 +123,7 @@ input[type="text"] {
 	float: right;
 }
 
-li {
+#footer li {
 	float: left;
 	text-decoration: none;
 	padding: 0px 28px 10px 0px;
