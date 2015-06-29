@@ -32,7 +32,7 @@ a:hover {
 #options {
 	width: 30px;
 	height: 30px;
-	background: url("images/i1_0430b5ba.png") no-repeat -139px -45px;
+	background: url(images/i1_0430b5ba.png) no-repeat -139px -45px;
 	opacity: .55;
 	margin: 0px 0px 0px 10px;
 }
@@ -40,7 +40,7 @@ a:hover {
 #notif {
 	width: 20px;
 	height: 20px;
-	background: url("images/i1_0430b5ba.png") no-repeat -194px -21px;
+	background: url(images/i1_0430b5ba.png) no-repeat -194px -21px;
 	margin: 0px 4px 0px 0px;
 	border-radius: 50%;
 	background-color: rgba(0,0,0,.55);
@@ -59,26 +59,36 @@ a:hover {
 	text-align: center;
 }
 
-input[type="text"] {
+input[type=text] {
 	width: 50%;
 	height: 20px;
 	max-width: 560px;
-	border-top-color: #c0c0c0;
-	border-right-color: #d9d9d9;
-	border-bottom-color: #d9d9d9;
-	border-left-color: #d9d9d9;
+	border-top-color: #989898 /*#c0c0c0*/;
+	border-right-color: #c0c0c0 /*#d9d9d9*/;
+	border-bottom-color: #c0c0c0;
+	border-left-color: #c0c0c0;
 	border-style: solid;
 	border-width: 1px;
 	padding: 4px 8px 4px 8px;
 	outline: 0;
 }
 
+.voice {
+	background: url(images/voice_icon.gif) no-repeat 99%;
+	background-size: 14px 19px;
+	padding-left: 20px;
+	height: 23px;
+	width: 17px;
+	opacity: 0.6;
+}
+
 input:hover {
-		border-color: #a4a4a4;
+		border-color: #727272 /*#a4a4a4*/;
 }
 
 input:focus {
 		border-color: #4d90fe;
+		opacity: 1;
 }
 
 .search {
